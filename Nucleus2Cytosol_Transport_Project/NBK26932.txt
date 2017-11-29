@@ -1,0 +1,141 @@
+The Transport of Molecules between the Nucleus and the Cytosol
+The nuclear envelope encloses the DNA and defines the nuclear compartment. This envelope consists of two concentric membranes that are penetrated by nuclear pore complexes (Figure 12-9). Although the inner and outer nuclear membranes are continuous, they maintain distinct protein compositions. The inner nuclear membrane contains specific proteins that act as binding sites for chromatin and for the protein meshwork of the nuclear lamina that provides structural support for this membrane. The inner membrane is surrounded by the outer nuclear membrane, which is continuous with the membrane of the ER. Like the membrane of the ER that will be described later in this chapter, the outer nuclear membrane is studded with ribosomes engaged in protein synthesis. The proteins made on these ribosomes are transported into the space between the inner and outer nuclear membranes (the perinuclear space), which is continuous with the ER lumen (see Figure 12-9).
+
+Figure 12-9. The nuclear envelope.
+Figure 12-9
+
+The nuclear envelope. The double-membrane envelope is penetrated by nuclear pore complexes and is continuous with the endoplasmic reticulum. The ribosomes that are normally bound to the cytosolic surface of the ER membrane and outer nuclear membrane are (more...)
+Image ch12fu2.jpg
+Bidirectional traffic occurs continuously between the cytosol and the nucleus. The many proteins that function in the nucleus—including histones, DNA and RNA polymerases, gene regulatory proteins, and RNA-processing proteins—are selectively imported into the nuclear compartment from the cytosol, where they are made. At the same time, tRNAs and mRNAs are synthesized in the nuclear compartment and then exported to the cytosol. Like the import process, the export process is selective; mRNAs, for example, are exported only after they have been properly modified by RNA-processing reactions in the nucleus. In some cases the transport process is complex: ribosomal proteins, for instance, are made in the cytosol, imported into the nucleus—where they assemble with newly made ribosomal RNA into particles—and are then exported again to the cytosol as part of a ribosomal subunit. Each of these steps requires selective transport across the nuclear envelope.
+
+Go to:
+Nuclear Pore Complexes Perforate the Nuclear Envelope
+
+The nuclear envelope of all eucaryotes is perforated by large, elaborate structures known as nuclear pore complexes. In animal cells, each complex has an estimated molecular mass of about 125 million and is thought to be composed of more than 50 different proteins, called nucleoporins, that are arranged with a striking octagonal symmetry (Figure 12-10).
+
+Figure 12-10. The arrangement of nuclear pore complexes in the nuclear envelope.
+Figure 12-10
+
+The arrangement of nuclear pore complexes in the nuclear envelope. (A) A small region of the nuclear envelope. In cross section, a nuclear pore complex seems to have four structural building blocks: column subunits, which form the bulk of the pore wall; (more...)
+In general, the more active the nucleus is in transcription, the greater the number of pore complexes its envelope contains. The nuclear envelope of a typical mammalian cell contains 3000–4000 pore complexes. If the cell is synthesizing DNA, it needs to import about 106 histone molecules from the cytosol every 3 minutes to package the newly made DNA into chromatin, which means that, on average, each pore complex needs to transport about 100 histone molecules per minute. If the cell is growing rapidly, each complex also needs to transport about 6 newly assembled large and small ribosomal subunits per minute from the nucleus, where they are produced, to the cytosol, where they are used. And that is only a very small part of the total traffic that passes through the pore complexes.
+
+Each pore complex contains one or more open aqueous channels through which small water-soluble molecules can passively diffuse. The effective size of these channels has been determined by injecting labeled water-soluble molecules of different sizes into the cytosol and then measuring their rate of diffusion into the nucleus. Small molecules (5000 daltons or less) diffuse in so fast that the nuclear envelope can be considered to be freely permeable to them. A protein of 17,000 daltons takes 2 minutes to equilibrate between the cytosol and the nucleus, whereas proteins larger than 60,000 daltons are hardly able to enter the nucleus at all. A quantitative analysis of such data suggests that the nuclear pore complex contains a pathway for free diffusion equivalent to a water-filled cylindrical channel about 9 nm in diameter and 15 nm long; such a channel would occupy only a small fraction of the total volume of the pore complex (Figure 12-11).
+
+Figure 12-11. Possible paths for free diffusion through the nuclear pore complex.
+Figure 12-11
+
+Possible paths for free diffusion through the nuclear pore complex. This drawing shows a hypothetical diaphragm (gray) inserted into the pore to restrict the size of the open channel to 9 nm, the pore size estimated from diffusion measurements. Nine nanometers (more...)
+Because many cell proteins are too large to pass by diffusion through the nuclear pore complexes, the nuclear envelope enables the nuclear compartment and the cytosol to maintain different complements of proteins. Mature cytosolic ribosomes, for example, are about 30 nm in diameter and thus cannot diffuse through the 9 nm channels; their exclusion from the nucleus ensures that protein synthesis is confined to the cytosol. But how does the nucleus export newly made ribosomal subunits or import large molecules, such as DNA and RNA polymerases, which have subunit molecular weights of 100,000–200,000 daltons? As we discuss next, these and many other protein and RNA molecules bind to specific receptor proteins that ferry them actively through nuclear pore complexes.
+
+Go to:
+Nuclear Localization Signals Direct Nuclear Proteins to the Nucleus
+
+When proteins are experimentally extracted from the nucleus and reintroduced into the cytosol (e.g., through experimentally induced perforations in the plasma membrane), even the very large ones reaccumulate efficiently in the nucleus. The selectivity of this nuclear import process resides in nuclear localization signals (NLSs), which are present only in nuclear proteins. The signals have been precisely defined in numerous nuclear proteins by using recombinant DNA technology (Figure 12-12). As mentioned earlier, they can be either signal sequences or signal patches. In many nuclear proteins they consist of one or two short sequences that are rich in the positively charged amino acids lysine and arginine (see Table 12-3, p. 667), the precise sequence varying for different nuclear proteins. Other nuclear proteins contain different signals, some of which are not yet characterized.
+
+Figure 12-12. The function of a nuclear localization signal.
+Figure 12-12
+
+The function of a nuclear localization signal. Immunofluorescence micrographs showing the cellular location of SV40 virus T-antigen containing or lacking a short peptide that serves as a nuclear localization signal. (A) The normal T-antigen protein contains (more...)
+The signals characterized this far can be located almost anywhere in the amino acid sequence and are thought to form loops or patches on the protein surface. Many function even when linked as short peptides to lysine side chains on the surface of a cytosolic protein, suggesting that the precise location of the signal within the amino acid sequence of a nuclear protein is not important.
+
+The transport of nuclear proteins through nuclear pore complexes can be directly visualized by coating gold particles with a nuclear localization signal, injecting the particles into the cytosol, and then following their fate by electron microscopy (Figure 12-13). Studies with various sizes of gold beads indicate that the opening can dilate up to about 26 nm in diameter during the transport process. A structure in the center of the nuclear pore complex seems to function like a close-fitting diaphragm that opens just the right amount to let transport substrates pass (see Figure 12-11). The molecular basis of the gating mechanism remains a mystery.
+
+Figure 12-13. Visualizing active import through nuclear pores.
+Figure 12-13
+
+Visualizing active import through nuclear pores. This series of electron micrographs shows colloidal gold spheres (arrowheads) coated with peptides containing nuclear localization signals entering the nucleus by means of nuclear pore complexes. Gold particles (more...)
+The mechanism of macromolecular transport across nuclear pore complexes is fundamentally different from the transport mechanisms involved in protein transfer across the membranes of other organelles, because it occurs through a large aqueous pore rather than through a protein transporter spanning one or more lipid bilayers. For this reason, nuclear proteins can be transported through a pore complex while they are in a fully folded conformation. Likewise, a newly formed ribosomal subunit is transported out of the nucleus as an assembled particle. By contrast, proteins have to be extensively unfolded during their transport into most other organelles, as we discuss later. In the electron microscope, however, very large particles traversing the pore seem to become constricted as they squeeze through the nuclear pore complex, indicating that at least some of them must undergo restructuring during transport. This has been most extensively studied for the export of some very large mRNAs, as discussed in Chapter 6 (see Figure 6-39).
+
+Go to:
+Nuclear Import Receptors Bind Nuclear Localization Signals and Nucleoporins
+
+To initiate nuclear import, most nuclear localization signals must be recognized by nuclear import receptors, which are encoded by a family of related genes. Each family member encodes a receptor protein that is specialized for the transport of a group of nuclear proteins sharing structurally similar nuclear localization signals (Figure 12-14A).
+
+Figure 12-14. Nuclear import receptors.
+Figure 12-14
+
+Nuclear import receptors. (A) Many nuclear import receptors bind both to nucleoporins and to a nuclear localization signal on the cargo proteins they transport. Cargo proteins 1, 2, and 3 in this example contain different nuclear localization signals, (more...)
+The import receptors are soluble cytosolic proteins that bind both to the nuclear localization signal on the protein to be transported and to nucleoporins, some of which form the tentaclelike fibrils that extend into the cytosol from the rim of the nuclear pore complexes. The fibrils and many other nucleoporins contain a large number of short amino-acid repeats that contain phenylalanine and glycine and are therefore called FG-repeats (named after the one-letter code for amino acids, discussed in Chapter 5). FG-repeats serve as binding sites for the import receptors. They are thought to line the path through the nuclear pore complexes taken by the import receptors and their bound cargo proteins. These protein complexes move along the path by repeatedly binding, dissociating, and then re-binding to adjacent repeat sequences. Once in the nucleus, the import receptors dissociate from their cargo and are returned to the cytosol.
+
+Nuclear import receptors do not always bind to nuclear proteins directly. Additional adaptor proteins are sometimes used that bridge between the import receptors and the nuclear localization signals on the proteins to be transported. Surprisingly, the adaptor proteins are structurally related to nuclear import receptors, suggesting a common evolutionary origin. The combined use of import receptors and adaptors allows a cell to recognize the broad repertoire of nuclear localization signals that are displayed on nuclear proteins.
+
+Go to:
+Nuclear Export Works Like Nuclear Import, But in Reverse
+
+The nuclear export of large molecules, such as new ribosomal subunits and RNA molecules, also occurs through nuclear pore complexes and depends on a selective transport system. The transport system relies on nuclear export signals on the macromolecules to be exported, as well as on complementary nuclear export receptors. These receptors bind both the export signal and nucleoporins to guide their cargo through the pore complex to the cytosol.
+
+Nuclear export receptors are structurally related to nuclear import receptors, and they are encoded by the same gene family of nuclear transport receptors, or karyopherins. In yeast, there are 14 genes encoding members of this family; in animal cells the number is significantly larger. From their amino acid sequence alone, it is often not possible to distinguish whether a particular family member works as a nuclear import or nuclear export receptor. It comes as no surprise, therefore, that the import and export transport systems work in similar ways but in opposite directions: the import receptors bind their cargo molecules in the cytosol, release them in the nucleus, and are then exported to the cytosol for reuse, while the export receptors function in reverse.
+
+If gold spheres similar to those used in the experiments shown in Figure 12-13 are coated with small RNA molecules (tRNA or ribosomal 5S RNA) and injected into the nucleus of a cultured cell, they are rapidly transported through the nuclear pore complexes into the cytosol. Using two sizes of gold particles, one coated with RNA and injected into the nucleus and the other coated with nuclear localization signals and injected into the cytosol, it can be shown that a single pore complex conducts traffic in both directions. How a pore complex coordinates the bidirectional flow of macromolecules to avoid congestion and head-on collisions is not known.
+
+Go to:
+The Ran GTPase Drives Directional Transport Through Nuclear Pore Complexes
+
+The import of nuclear proteins through the pore complex concentrates specific proteins in the nucleus, thereby increasing order in the cell, which must consume energy (discussed in Chapter 2). The energy is thought to be provided by the hydrolysis of GTP by the monomeric GTPase Ran. Ran is found in both the cytosol and the nucleus, and it is required for both the nuclear import and export systems.
+
+Like other GTPases, Ran is a molecular switch that can exist in two conformational states, depending on whether GDP or GTP is bound (discussed in Chapter 3). Conversion between the two states is triggered by two Ran-specific regulatory proteins: a cytosolic GTPase-activating protein (GAP) that triggers GTP hydrolysis and thus converts Ran-GTP to Ran-GDP, and a nuclear guanine exchange factor (GEF) that promotes the exchange of GDP for GTP and thus converts Ran-GDP to Ran-GTP. Because Ran-GAP is located in the cytosol and Ran-GEF is located in the nucleus, the cytosol primarily contains Ran-GDP, and the nucleus primarily contains Ran-GTP (Figure 12-15).
+
+Figure 12-15. The compartmentalization of Ran-GDP and Ran-GTP.
+Figure 12-15
+
+The compartmentalization of Ran-GDP and Ran-GTP. Localization of Ran-GDP to the cytosol and Ran-GTP to the nucleus results from the localization of two Ran regulatory proteins: Ran GTPase-activating protein (Ran-GAP) is located in the cytosol and Ran (more...)
+This gradient of the two conformational forms of Ran drives nuclear transport in the appropriate direction (Figure 12-16). Docking of nuclear import receptors to FG-repeats on the cytosolic side of the nuclear pore complex, for example, occurs only when these receptors are loaded with an appropriate cargo. The import receptors with their bound cargo then move along tracks lined by FG-repeat sequences until they reach the nuclear side of the pore complex, where Ran-GTP binding causes the import receptors to release their cargo (Figure 12-17). By favoring cargo-dependent loading of import receptors onto the FG-repeat track in the cytosol and Ran-GTP-dependent cargo release in the nucleus, the nuclear localization of Ran-GTP imposes directionality.
+
+Figure 12-16. A model for how GTP hydrolysis by Ran provides directionality for nuclear transport.
+Figure 12-16
+
+A model for how GTP hydrolysis by Ran provides directionality for nuclear transport. Movement through the pore complex of loaded nuclear transport receptors may occur by guided diffusion along the FG-repeats displayed by nucleoporins. The differential (more...)
+Figure 12-17. A model for how the binding of Ran-GTP might cause nuclear import receptors to release their cargo.
+Figure 12-17
+
+A model for how the binding of Ran-GTP might cause nuclear import receptors to release their cargo. (A) Nuclear transport receptors are composed of repeated α-helical motifs that stack into either large arches or snail-shaped coils, depending (more...)
+Having discharged its cargo in the nucleus, the empty import receptor with Ran-GTP bound is transported back through the pore complex to the cytosol. There, two cytosolic proteins, Ran Binding Protein and Ran-GAP collaborate to convert Ran-GTP to Ran-GDP. The Ran Binding Protein first displaces Ran-GTP from the import receptor, which allows Ran-GAP to trigger Ran to hydrolyze its bound GTP. The Ran-GDP then dissociates from the Ran Binding Protein and is reimported into the nucleus, thereby completing the cycle.
+
+Nuclear export occurs by a similar mechanism, except that Ran-GTP in the nucleus promotes cargo binding to the export receptor and the binding of the loaded receptor to the nuclear side of the pore complex. Once in the cytosol, Ran encounters Ran-GAP and Ran Binding Protein and hydrolyses its bound GTP. The export receptor then releases both its cargo and Ran-GDP in the cytosol and dissociates from the pore complex, and free export receptors are returned to the nucleus to complete the cycle (see Figure 12-16).
+
+Go to:
+Transport Between the Nucleus and Cytosol Can Be Regulated by Controlling Access to the Transport Machinery
+
+Some proteins, such as those that bind newly made mRNAs in the nucleus, contain both nuclear localization and nuclear export signals. These proteins continually shuttle between the nucleus and the cytosol. The steady-state localization of such shuttling proteins is determined by the relative rates of their import and export. If the rate of import exceeds the rate of export, a protein will be located primarily in the nucleus. Conversely, if the rate of export exceeds the rate of import, a protein will be located primarily in the cytosol. Thus, changing the rate of import, export, or both, can change the location of a protein.
+
+Some shuttling proteins move continuously in and out of the nucleus. In other cases, however, the transport is stringently controlled. As discussed in Chapter 7, the activity of some gene regulatory proteins is controlled by keeping them out of the nuclear compartment until they are needed there (Figure 12-18). In many cases, this control depends on the regulation of nuclear localization and export signals; these can be turned on or off, often by phosphorylation of adjacent amino acids (Figure 12-19).
+
+Figure 12-18. The control of fly embryo development by nuclear transport.
+Figure 12-18
+
+The control of fly embryo development by nuclear transport. The gene regulatory protein dorsal is expressed uniformly throughout this early Drosophila embryo, which is shown in cross section. It is active only in cells at the ventral side (bottom) of (more...)
+Figure 12-19. The control of nuclear import during T-cell activation.
+Figure 12-19
+
+The control of nuclear import during T-cell activation. The nuclear factor of activated T cells (NF-AT) is a gene regulatory protein that, in the resting T cell, is found in the cytosol in a phosphorylated state. When T cells are activated, the intracellular (more...)
+Other gene regulatory proteins are bound to inhibitory cytosolic proteins that either anchor them in the cytosol (through interactions with the cytoskeleton or with specific organelles), or mask their nuclear localization signals so that they are unable to interact with nuclear import receptors. When the cell receives an appropriate stimulus, the gene regulatory protein is released from its cytosolic anchor or mask and is transported into the nucleus. One important example is the latent gene regulatory protein that controls the expression of proteins involved in cholesterol metabolism. The protein is made and stored in an inactive form as a transmembrane protein in the ER. When deprived of cholesterol, the cell activates specific proteases that cleave the protein, releasing its cytosolic domain. This domain is then imported into the nucleus, where it activates the transcription of genes required for cholesterol import and synthesis.
+
+Cells control the export of RNA from the nucleus in a similar way. Messenger RNAs become bound to proteins that are loaded onto the RNA as transcription and splicing proceed. These proteins contain nuclear export signals that are recognized by export receptors that guide the RNA out of the nucleus through nuclear pore complexes. Upon entry into the cytosol, the proteins coating the RNA are stripped off and rapidly returned to the nucleus. Other RNAs, such as snRNAs and tRNAs, are exported by different sets of nuclear export receptors.
+
+Incompletely processed pre-mRNAs are actively retained in the nucleus, anchored to the nuclear transcription and splicing machinery, which releases an RNA molecule only after its processing is completed. Genetic studies in yeast show that a mutant pre-mRNA that cannot properly engage with the splicing machinery is improperly exported as an unspliced molecule.
+
+Go to:
+The Nuclear Envelope Is Disassembled During Mitosis
+
+The nuclear lamina is a meshwork of interconnected protein subunits called nuclear lamins. The lamins are a special class of intermediate filament proteins (discussed in Chapter 16) that polymerize into a two-dimensional lattice (Figure 12-20). The nuclear lamina gives shape and stability to the nuclear envelope, to which it is anchored by attachment to both the nuclear pore complexes and integral membrane proteins of the inner nuclear membrane. The lamina also interacts directly with chromatin, which itself interacts with the integral membrane proteins of the inner nuclear membrane. Together with the lamina, these membrane proteins provide structural links between the DNA and the nuclear envelope.
+
+Figure 12-20. The nuclear lamina.
+Figure 12-20
+
+The nuclear lamina. An electron micrograph of a portion of the nuclear lamina in a Xenopus oocyte prepared by freeze-drying and metal shadowing. The lamina is formed by a regular lattice of specialized intermediate filaments. (Courtesy of Ueli Aebi.) (more...)
+When a nucleus disassembles during mitosis, the nuclear lamina depolymerizes. The disassembly is at least partly a consequence of direct phosphorylation of the nuclear lamins by the cyclin-dependent kinase activated at the onset of mitosis (discussed in Chapter 17). At the same time, proteins of the inner nuclear membrane are phosphorylated, and the nuclear pore complexes disassemble and disperse in the cytosol. Nuclear envelope membrane proteins—no longer tethered to the pore complexes, lamina, or chromatin—diffuse throughout the ER membrane. Together, these events break down the barriers that normally separate the nucleus and cytosol, and these nuclear proteins that are not bound to membranes or chromosomes intermix completely with the cytosol of the dividing cell (Figure 12-21).
+
+Figure 12-21. The breakdown and re-formation of the nuclear envelope during mitosis.
+Figure 12-21
+
+The breakdown and re-formation of the nuclear envelope during mitosis. The phosphorylation of the lamins is thought to trigger the disassembly of the nuclear lamina, which in turn causes the nuclear envelope to break up. Dephosphorylation of the lamins (more...)
+Later in mitosis (in late anaphase), the nuclear envelope reassembles on the surface of the chromosomes, as inner nuclear membrane proteins and dephosphorylated lamins rebind to chromatin. ER membranes wrap around groups of chromosomes and continue fusing until a sealed nuclear envelope is reformed. During this process, the nuclear pore complexes also reassemble and start actively reimporting proteins that contain nuclear localization signals. Because the nuclear envelope is initially closely applied to the surface of the chromosomes, the newly formed nucleus excludes all proteins except those initially bound to the mitotic chromosomes and those that are selectively imported through nuclear pore complexes. In this way, all other large proteins are kept out of the newly assembled nucleus.
+
+Nuclear localization signals are not cleaved off after transport into the nucleus. This is presumably because nuclear proteins need to be imported repeatedly, once after every cell division. In contrast, once a protein molecule has been imported into any of the other membrane-enclosed organelles, it is passed on from generation to generation within that compartment and need never be translocated again; the signal sequence on these molecules is often removed after protein translocation.
+
+Go to:
+Summary
+
+The nuclear envelope consists of an inner and an outer nuclear membrane. The outer membrane is continuous with the ER membrane, and the space between it and the inner membrane is continuous with the ER lumen. RNA molecules, which are made in the nucleus, and ribosomal subunits, which are assembled there, are exported to the cytosol, while all the proteins that function in the nucleus are synthesized in the cytosol and are then imported. The extensive traffic of materials between the nucleus and cytosol occurs through nuclear pore complexes, which provide a direct passageway across the nuclear envelope.
+
+Proteins containing nuclear localization signals are actively transported inward through the nuclear pore complexes, while RNA molecules and newly made ribosomal subunits contain nuclear export signals that direct their active transport outward through the pore complexes. Some proteins, including nuclear import and export receptors, continually shuttle between the cytosol and nucleus. The GTPase Ran, provides directionality for nuclear transport. The transport of nuclear proteins and RNA molecules through the pore complexes can be regulated by denying these molecules access to the transport machinery. Because nuclear localization signals are not removed, nuclear proteins can be imported repeatedly, as is required each time that the nucleus reassembles after mitosis.

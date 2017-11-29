@@ -1,0 +1,1848 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mikebada/ontologies/2017/10/untitled-ontology-69#"
+     xml:base="http://www.semanticweb.org/mikebada/ontologies/2017/10/untitled-ontology-69"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mikebada/ontologies/2017/10/untitled-ontology-69"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of_function_that_is_realized_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of_function_that_is_realized_in">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/bearer_of"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/realized_in"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of_potential_that_inheres_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of_potential_that_inheres_in"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/causally_effected_by -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/causally_effected_by">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/causally_effects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/causally_effects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/causally_effects"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/contains -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/contains"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/during -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/during"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exports -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/exports">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/follows -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/follows">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/precedes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/has_input -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_input">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/has_participant"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/input_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/has_output -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_output">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/has_participant"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_participant">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/has_participant_that_is_bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_participant_that_is_bearer_of">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/has_participant"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/bearer_of"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/has_proper_part">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/proper_part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/imports -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/imports">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/input_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/input_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/input_of_process_that_has_output -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/input_of_process_that_has_output">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/input_of"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/has_output"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/is_altered_as_result_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/is_altered_as_result_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/input_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/is_localized_as_result_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/is_localized_as_result_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/located_at -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/located_at"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/located_between -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/located_between">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/located_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/location_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/location_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/occurs_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/occurs_at -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/occurs_at"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/occurs_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/occurs_in">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/occurs_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/occurs_on -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/occurs_on">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/occurs_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/output_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/output_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/participates_in"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/precedes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/precedes"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/proper_part_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/qualifies_with_respect_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/qualifies_with_respect_to"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/realized_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/realized_in">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/realizes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/realizes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/realizes"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/regulates_entity_or_process -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/regulates_entity_or_process">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/causally_effects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_across -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_across">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_at -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_at">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/occurs_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_between -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_between">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_from -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_from">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_into -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_into">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_to"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/has_participant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/results_in_localization_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/results_in_localization_to">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_at"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transforms_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/transforms_to"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15358"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33699"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DNA_P1_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DNA_P1_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSO_3100186"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DNA_polymerase -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DNA_polymerase">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/causally_effects"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0034061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DNA_polymerase_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DNA_polymerase_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DNA_polymerase"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/protein_P2_S2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000785"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005635"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005637"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005640"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005643"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005788"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005789"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005829"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005840"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006396"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006810"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022607"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044391"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0065007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0065007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097747"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSO_0000252"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSO_0000409"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSO_0000704"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSO_3100186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSO_3100186"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000429"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001903"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0005011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0005011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0005016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0005016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_002112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_002112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RNA_polymerase -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RNA_polymerase">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/causally_effects"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0097747"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RNA_polymerase_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RNA_polymerase_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RNA_polymerase"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/protein_P2_S2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RNA_processing_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RNA_processing_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006396"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RNA_processing_P2_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/RNA_processing_P2_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006396"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/occurs_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bidirectional_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bidirectional_P2_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001903"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/binding_site_and_protein_P1_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/binding_site_and_protein_P1_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSO_0000409"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/location_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/chromatin_P1_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biological_regulation_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biological_regulation_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/regulates_entity_or_process"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/gene_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biosynthetic_process_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biosynthetic_process_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/occurs_on"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosome_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biosynthetic_process_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biosynthetic_process_P2_S3_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S3_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/occurs_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S3_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/precedes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/export_process_P2_S3_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/occurs_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_P2_S5_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cellular_component_assembly_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cellular_component_assembly_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022607"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/follows"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/import_process_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_input"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosomal_RNA_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_output"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/macromolecular_complex_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chromatin_P1_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/chromatin_P1_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000785"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/continuous_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/continuous_P2_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000429"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/continuous_with_P1_S3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/continuous_with_P1_S3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0005011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/qualifies_with_respect_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/continuous_with_P1_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/continuous_with_P1_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0005011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/qualifies_with_respect_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/continuous_with_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/continuous_with_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0005011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/qualifies_with_respect_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/endoplasmic_reticulum_lumen_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_P2_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/location_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_P2_S3_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_P2_S3_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_P2_S5_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_P2_S5_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_P2_S5_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_P2_S5_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cytosol_T -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cytosol_T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/endoplasmic_reticulum_lumen_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/endoplasmic_reticulum_lumen_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005788"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S5">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S6"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005789"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/endoplasmic_reticulum_membrane_P1_S6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005789"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/location_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosome_P1_S6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/export_process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/export_process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/exports"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/export_process_P2_S3_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/export_process_P2_S3_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/export_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_P2_S3_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/export_process_P2_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/export_process_P2_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/export_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/follows"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RNA_processing_P2_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/export_process_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/export_process_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/export_process"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/step_P2_S6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/follows"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cellular_component_assembly_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/part_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_P2_S5_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/function_process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/function_process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/realizes"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/function_process_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/function_process_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/function_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/occurs_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S2_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/gene_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/gene_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSO_0000704"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/histone_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/histone_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15358"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/protein_P2_S2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/import_process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/import_process">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/imports"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/import_process_P2_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/import_process_P2_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/import_process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_into"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S2_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/import_process_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/import_process_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/import_process"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/step_P2_S6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/follows"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_into"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/macromolecular_complex_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/macromolecular_complex_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/macromolecule_modification_P2_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/macromolecule_modification_P2_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043412"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/membrane_P1_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/membrane_P1_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/perforate_P1_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/messenger_RNA_P2_S3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/messenger_RNA_P2_S3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/messenger_RNA_P2_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/messenger_RNA_P2_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_altered_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RNA_processing_P2_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/export_process_P2_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_envelope_P1_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_envelope_P1_S1">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_envelope_P1_S2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005635"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DNA_P1_S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_envelope_P1_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_envelope_P1_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005635"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_proper_part"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/membrane_P1_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_envelope_P2_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_envelope_P2_S6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005635"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S3">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005637"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/membrane_P1_S2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/continuous_with_P1_S3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S4">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S5"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005637"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/binding_site_and_protein_P1_S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S5">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S7"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005637"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/surrounded_by_P1_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005637"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S3">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S5"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005640"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/membrane_P1_S2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S5">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S6"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005640"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/continuous_with_P1_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S6">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S7"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005640"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/location_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosome_P1_S6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005640"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nuclear_pore_P1_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nuclear_pore_P1_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005643"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S1">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S2_1"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nucleus_T"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S2_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S2_1">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S2_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S2_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S2_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S3_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S3_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/location_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cellular_component_assembly_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nucleus_T -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nucleus_T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/occurrent_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/occurrent_P2_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/continuous_P2_S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_P2_S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_P2_S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/part -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/part">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/proper_part_of"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/proper_part_of"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/part_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/part_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/part"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/proper_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosomal_subunit_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/perforate_P1_S2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/perforate_P1_S2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_002112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/causally_effected_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_pore_P1_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/polyatomic_entity_T -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/polyatomic_entity_T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/protein_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/protein_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/transport_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/protein_P2_S2_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/protein_P2_S2_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of_function_that_is_realized_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/function_process_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/import_process_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/protein_P2_S2_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/protein_P2_S2_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/protein_P2_S2_1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biological_regulation_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/protein_P2_S2_3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/protein_P2_S2_3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/protein_P2_S2_1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/RNA_processing_P2_S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/protein_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/protein_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/input_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cellular_component_assembly_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/input_of_process_that_has_output"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ribosome_P2_S5_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/export_process_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/import_process_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/transforms_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/part_P2_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosomal_RNA_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosomal_RNA_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSO_0000252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S5_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosomal_subunit_P2_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosomal_subunit_P2_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044391"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosome_P1_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosome_P1_S6">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/ribosome_P1_S7"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005840"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/translation_P1_S6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosome_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosome_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005840"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosome_P2_S5_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosome_P2_S5_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005840"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ribosome_P2_S5_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ribosome_P2_S5_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005840"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/spatial_region_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/spatial_region_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/continuous_with_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/located_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_inner_membrane_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/located_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/step -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/step">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/proper_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/step_P2_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/step_P2_S6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/step"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_proper_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/transport_P2_S6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/surrounded_by_P1_S5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/surrounded_by_P1_S5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0005016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/qualifies_with_respect_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_outer_membrane_P1_S5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transfer_RNA_P2_S3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/transfer_RNA_P2_S3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_localized_as_result_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/export_process_P2_S3_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/output_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biosynthetic_process_P2_S3_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/translation_P1_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/translation_P1_S6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006412"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transport_P1_S7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/transport_P1_S7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_into"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/spatial_region_P1_S7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transport_P2_S1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/transport_P2_S1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/occurrent_P2_S1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_participant_that_is_bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bidirectional_P2_S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transport_P2_S6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/transport_P2_S6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_across"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nuclear_envelope_P2_S6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/transport_T -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/transport_T">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cytosol_T"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_between"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nucleus_T"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/results_in_localization_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/polyatomic_entity_T"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
