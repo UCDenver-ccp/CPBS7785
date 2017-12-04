@@ -142,650 +142,1208 @@ Summary
 The nuclear envelope consists of an inner and an outer nuclear membrane. The outer membrane is continuous with the ER membrane, and the space between it and the inner membrane is continuous with the ER lumen. RNA molecules, which are made in the nucleus, and ribosomal subunits, which are assembled there, are exported to the cytosol, while all the proteins that function in the nucleus are synthesized in the cytosol and are then imported. The extensive traffic of materials between the nucleus and cytosol occurs through nuclear pore complexes, which provide a direct passageway across the nuclear envelope.
 
 Proteins containing nuclear localization signals are actively transported inward through the nuclear pore complexes, while RNA molecules and newly made ribosomal subunits contain nuclear export signals that direct their active transport outward through the pore complexes. Some proteins, including nuclear import and export receptors, continually shuttle between the cytosol and nucleus. The GTPase Ran, provides directionality for nuclear transport. The transport of nuclear proteins and RNA molecules through the pore complexes can be regulated by denying these molecules access to the transport machinery. Because nuclear localization signals are not removed, nuclear proteins can be imported repeatedly, as is required each time that the nucleus reassembles after mitosis.</text>
-	<annotation>
-		<id>annotation_3</id>
-		<annotator>Default</annotator>
-		<span start="55" end="62" />
-		<class-name>null</class-name>
-		<class-id>cytosol_T</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_25</id>
-		<annotator>Default</annotator>
-		<span start="1352" end="1365" />
-		<class-name>null</class-name>
-		<class-id>bidirectional_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_8</id>
-		<annotator>Default</annotator>
-		<span start="648" end="666" />
-		<class-name>null</class-name>
-		<class-id>endoplasmic_reticulum_membrane_P1_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_56</id>
-		<annotator>Default</annotator>
-		<span start="2129" end="2142" />
-		<class-name>null</class-name>
-		<class-id>ribosomal_RNA_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_24</id>
-		<annotator>Default</annotator>
-		<span start="1381" end="1393" />
-		<class-name>null</class-name>
-		<class-id>continuous_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_41</id>
-		<annotator>Default</annotator>
-		<span start="1688" end="1693" />
-		<class-name>null</class-name>
-		<class-id>transfer_RNA_P2_S3</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_43</id>
-		<annotator>Default</annotator>
-		<span start="1756" end="1764" />
-		<class-name>null</class-name>
-		<class-id>export_process_P2_S3_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_40</id>
-		<annotator>Default</annotator>
-		<span start="1727" end="1746" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S3_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_50</id>
-		<annotator>Default</annotator>
-		<span start="2058" end="2065" />
-		<class-name>null</class-name>
-		<class-id>cytosol_P2_S5_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_55</id>
-		<annotator>Default</annotator>
-		<span start="2129" end="2138" />
-		<class-name>null</class-name>
-		<class-id>ribosome_P2_S5_2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_30</id>
-		<annotator>Default</annotator>
-		<span start="1498" end="1501" />
-		<span start="1510" end="1521" />
-		<class-name>null</class-name>
-		<class-id>DNA_polymerase_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_1</id>
-		<annotator>Default</annotator>
-		<span start="362" end="384" />
-		<span start="540" end="553" />
-		<class-name>null</class-name>
-		<class-id>nuclear_inner_membrane_P1_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_51</id>
-		<annotator>Default</annotator>
-		<span start="2193" end="2200" />
-		<class-name>null</class-name>
-		<class-id>cytosol_P2_S5_2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_15</id>
-		<annotator>Default</annotator>
-		<span start="866" end="877" />
-		<class-name>null</class-name>
-		<class-id>transport_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_12</id>
-		<annotator>Default</annotator>
-		<span start="263" end="268" />
-		<span start="279" end="296" />
-		<class-name>null</class-name>
-		<class-id>nuclear_inner_membrane_P1_S3</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_2</id>
-		<annotator>Default</annotator>
-		<span start="403" end="411" />
-		<span start="424" end="437" />
-		<class-name>null</class-name>
-		<class-id>binding_site_and_protein_P1_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_67</id>
-		<annotator>Default</annotator>
-		<span start="2272" end="2281" />
-		<class-name>null</class-name>
-		<class-id>transport_P2_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_49</id>
-		<annotator>Default</annotator>
-		<span start="1907" end="1915" />
-		<class-name>null</class-name>
-		<class-id>macromolecule_modification_P2_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_45</id>
-		<annotator>Default</annotator>
-		<span start="1951" end="1958" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_54</id>
-		<annotator>Default</annotator>
-		<span start="2008" end="2017" />
-		<class-name>null</class-name>
-		<class-id>ribosome_P2_S5_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_5</id>
-		<annotator>Default</annotator>
-		<span start="67" end="83" />
-		<class-name>null</class-name>
-		<class-id>nuclear_envelope_P1_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_38</id>
-		<annotator>Default</annotator>
-		<span start="1611" end="1630" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S2_2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_20</id>
-		<annotator>Default</annotator>
-		<span start="993" end="1001" />
-		<class-name>null</class-name>
-		<class-id>endoplasmic_reticulum_lumen_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_65</id>
-		<annotator>Default</annotator>
-		<span start="2204" end="2208" />
-		<class-name>null</class-name>
-		<class-id>part_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_10</id>
-		<annotator>Default</annotator>
-		<span start="143" end="151" />
-		<class-name>null</class-name>
-		<class-id>nuclear_envelope_P1_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_11</id>
-		<annotator>Default</annotator>
-		<span start="301" end="311" />
-		<class-name>null</class-name>
-		<class-id>continuous_with_P1_S3</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_34</id>
-		<annotator>Default</annotator>
-		<span start="1568" end="1576" />
-		<class-name>null</class-name>
-		<class-id>protein_P2_S2_3</class-id>
-	</annotation>
-	<annotation>
+	<concept-annotation>
 		<id>annotation_0</id>
 		<annotator>Default</annotator>
 		<span start="442" end="451" />
 		<class-name>null</class-name>
 		<class-id>chromatin_P1_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_57</id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_44</id>
 		<annotator>Default</annotator>
-		<span start="2171" end="2179" />
+		<span start="1708" end="1719" />
 		<class-name>null</class-name>
-		<class-id>export_process_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_26</id>
+		<class-id>biosynthetic_process_P2_S3_1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_152</id>
+		<graph>Graph P2_S6</graph>
 		<annotator>Default</annotator>
-		<span start="1640" end="1647" />
-		<class-name>null</class-name>
-		<class-id>cytosol_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_23</id>
+		<source>annotation_67</source>
+		<target>annotation_68</target>
+		<relationship>results_in_localization_across</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_51</id>
 		<annotator>Default</annotator>
-		<span start="1374" end="1380" />
+		<span start="2193" end="2200" />
 		<class-name>null</class-name>
-		<class-id>occurrent_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_32</id>
+		<class-id>cytosol_P2_S5_2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_98</id>
+		<graph>Graph P1_S6</graph>
 		<annotator>Default</annotator>
-		<span start="1553" end="1567" />
-		<class-name>null</class-name>
-		<class-id>RNA_processing_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_0</id>
+		<source>annotation_22</source>
+		<target>annotation_41</target>
+		<relationship>location_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_6</id>
 		<annotator>Default</annotator>
 		<span start="17" end="26" />
 		<class-name>null</class-name>
 		<class-id>polyatomic_entity_T</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_46</id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_94</id>
+		<graph>Graph P1_S5</graph>
 		<annotator>Default</annotator>
-		<span start="1839" end="1844" />
+		<source>annotation_8</source>
+		<target>annotation_7</target>
+		<relationship>qualifies_with_respect_to</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_124</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_26</source>
+		<target>annotation_36</target>
+		<relationship>location_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_25</id>
+		<annotator>Default</annotator>
+		<span start="1422" end="1429" />
 		<class-name>null</class-name>
-		<class-id>messenger_RNA_P2_S4</class-id>
-	</annotation>
-	<annotation>
+		<class-id>nucleus_P2_S1</class-id>
+	</concept-annotation>
+	<concept-annotation>
 		<id>annotation_18</id>
 		<annotator>Default</annotator>
 		<span start="905" end="910" />
 		<span start="921" end="938" />
 		<class-name>null</class-name>
 		<class-id>nuclear_inner_membrane_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_13</id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_84</id>
+		<graph>Graph 0</graph>
 		<annotator>Default</annotator>
-		<span start="39" end="46" />
-		<class-name>null</class-name>
-		<class-id>nucleus_T</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_8</id>
+		<source>annotation_2</source>
+		<target>annotation_6</target>
+		<relationship>results_in_localization_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_62</id>
 		<annotator>Default</annotator>
-		<span start="198" end="208" />
+		<span start="2104" end="2112" />
 		<class-name>null</class-name>
-		<class-id>perforate_P1_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_14</id>
+		<class-id>cellular_component_assembly_P2_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_75</id>
+		<annotator>Default</annotator>
+		<span start="2046" end="2050" />
+		<class-name>null</class-name>
+		<class-id>biosynthetic_process_P2_S5_1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_97</id>
+		<graph>Graph P1_S6</graph>
+		<annotator>Default</annotator>
+		<source>annotation_79</source>
+		<target>annotation_41</target>
+		<relationship>location_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_9</id>
+		<annotator>Default</annotator>
+		<span start="212" end="224" />
+		<class-name>null</class-name>
+		<class-id>nuclear_pore_P1_S2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_100</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_13</source>
+		<target>annotation_15</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_52</id>
+		<annotator>Default</annotator>
+		<span start="2085" end="2092" />
+		<class-name>null</class-name>
+		<class-id>nucleus_P2_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_37</id>
+		<annotator>Default</annotator>
+		<span start="1523" end="1538" />
+		<class-name>null</class-name>
+		<class-id>biological_regulation_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_60</id>
+		<annotator>Default</annotator>
+		<span start="67" end="83" />
+		<class-name>null</class-name>
+		<class-id>nuclear_envelope_P1_S1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_114</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_32</source>
+		<target>annotation_113</target>
+		<relationship>bearer_of_function_that_is_realized_in</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_132</id>
+		<graph>Graph P2_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_81</source>
+		<target>annotation_48</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_121</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_34</source>
+		<target>annotation_35</target>
+		<relationship>participates_in</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_55</id>
+		<annotator>Default</annotator>
+		<span start="2129" end="2138" />
+		<class-name>null</class-name>
+		<class-id>ribosome_P2_S5_2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_131</id>
+		<graph>Graph P2_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_81</source>
+		<target>annotation_47</target>
+		<relationship>is_altered_as_result_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_111</id>
+		<graph>Graph P2_S1</graph>
+		<annotator>Default</annotator>
+		<source>annotation_23</source>
+		<target>annotation_76</target>
+		<relationship>results_in_localization_between</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_130</id>
+		<graph>Graph P2_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_48</source>
+		<target>annotation_47</target>
+		<relationship>follows</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_80</id>
+		<annotator>Default</annotator>
+		<span start="1951" end="1958" />
+		<class-name>null</class-name>
+		<class-id>nucleus_P2_S4</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_34</id>
+		<annotator>Default</annotator>
+		<span start="1568" end="1576" />
+		<class-name>null</class-name>
+		<class-id>protein_P2_S2_3</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_141</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_71</source>
+		<target>annotation_75</target>
+		<relationship>follows</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_74</id>
+		<annotator>Default</annotator>
+		<span start="2247" end="2252" />
+		<class-name>null</class-name>
+		<class-id>step_P2_S6</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_125</id>
+		<graph>Graph P2_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_58</source>
+		<target>annotation_43</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_39</id>
+		<annotator>Default</annotator>
+		<span start="97" end="100" />
+		<class-name>null</class-name>
+		<class-id>DNA_P1_S1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_19</id>
+		<annotator>Default</annotator>
+		<span start="648" end="666" />
+		<class-name>null</class-name>
+		<class-id>endoplasmic_reticulum_membrane_P1_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_138</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_75</target>
+		<relationship>output_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_88</id>
+		<graph>Graph P1_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_73</source>
+		<target>annotation_9</target>
+		<relationship>causally_effected_by</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_20</id>
+		<annotator>Default</annotator>
+		<span start="993" end="1001" />
+		<class-name>null</class-name>
+		<class-id>endoplasmic_reticulum_lumen_P1_S7</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_41</id>
+		<annotator>Default</annotator>
+		<span start="785" end="794" />
+		<class-name>null</class-name>
+		<class-id>ribosome_P1_S6</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_115</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_113</source>
+		<target>annotation_28</target>
+		<relationship>occurs_in</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_28</id>
+		<annotator>Default</annotator>
+		<span start="1470" end="1477" />
+		<class-name>null</class-name>
+		<class-id>nucleus_P2_S2_1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_79</id>
+		<annotator>Default</annotator>
+		<span start="677" end="695" />
+		<class-name>null</class-name>
+		<class-id>endoplasmic_reticulum_membrane_P1_S6</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_11</id>
+		<annotator>Default</annotator>
+		<span start="301" end="311" />
+		<class-name>null</class-name>
+		<class-id>continuous_with_P1_S3</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_3</id>
+		<annotator>Default</annotator>
+		<span start="55" end="62" />
+		<class-name>null</class-name>
+		<class-id>cytosol_T</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_86</id>
+		<graph>Graph P1_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_69</source>
+		<target>annotation_72</target>
+		<relationship>has_proper_part</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_33</id>
+		<annotator>Default</annotator>
+		<span start="1539" end="1547" />
+		<class-name>null</class-name>
+		<class-id>protein_P2_S2_2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_101</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_13</source>
+		<target>annotation_21</target>
+		<relationship>output_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_140</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_75</source>
+		<target>annotation_50</target>
+		<relationship>occurs_in</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_148</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_57</source>
+		<target>annotation_62</target>
+		<relationship>follows</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_149</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_57</source>
+		<target>annotation_65</target>
+		<relationship>results_in_localization_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_151</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_65</source>
+		<target>annotation_59</target>
+		<relationship>proper_part_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_107</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_17</source>
+		<target>annotation_20</target>
+		<relationship>qualifies_with_respect_to</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_116</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_32</source>
+		<target>annotation_78</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_144</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_62</source>
+		<target>annotation_71</target>
+		<relationship>follows</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_103</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_15</source>
+		<target>annotation_16</target>
+		<relationship>results_in_localization_into</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_113</id>
+		<annotator>Default</annotator>
+		<span start="1454" end="1462" />
+		<class-name>null</class-name>
+		<class-id>function_process_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_21</id>
+		<annotator>Default</annotator>
+		<span start="838" end="842" />
+		<class-name>null</class-name>
+		<class-id>biosynthetic_process_P1_S7</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_127</id>
+		<graph>Graph P2_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_44</source>
+		<target>annotation_40</target>
+		<relationship>occurs_in</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_54</id>
+		<annotator>Default</annotator>
+		<span start="2008" end="2017" />
+		<class-name>null</class-name>
+		<class-id>ribosome_P2_S5_1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_42</id>
+		<annotator>Default</annotator>
+		<span start="1698" end="1703" />
+		<class-name>null</class-name>
+		<class-id>messenger_RNA_P2_S3</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_61</id>
+		<annotator>Default</annotator>
+		<span start="559" end="573" />
+		<class-name>null</class-name>
+		<class-id>nuclear_inner_membrane_P1_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_129</id>
+		<graph>Graph P2_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_43</source>
+		<target>annotation_77</target>
+		<relationship>results_in_localization_to</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_91</id>
+		<graph>Graph P1_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_1</source>
+		<target>annotation_5</target>
+		<relationship>contains</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_32</id>
+		<annotator>Default</annotator>
+		<span start="1440" end="1448" />
+		<class-name>null</class-name>
+		<class-id>protein_P2_S2_1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_134</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_62</target>
+		<relationship>input_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_1</id>
+		<annotator>Default</annotator>
+		<span start="362" end="384" />
+		<span start="540" end="553" />
+		<class-name>null</class-name>
+		<class-id>nuclear_inner_membrane_P1_S4</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_128</id>
+		<graph>Graph P2_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_40</source>
+		<target>annotation_43</target>
+		<relationship>precedes</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_90</id>
+		<graph>Graph P1_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_11</source>
+		<target>annotation_70</target>
+		<relationship>qualifies_with_respect_to</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_122</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_78</source>
+		<target>annotation_26</target>
+		<relationship>results_in_localization_from</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_38</id>
+		<annotator>Default</annotator>
+		<span start="1611" end="1630" />
+		<class-name>null</class-name>
+		<class-id>nucleus_P2_S2_2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_139</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_65</target>
+		<relationship>transforms_to</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_36</id>
+		<annotator>Default</annotator>
+		<span start="1664" end="1668" />
+		<class-name>null</class-name>
+		<class-id>biosynthetic_process_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_45</id>
 		<annotator>Default</annotator>
 		<span start="852" end="861" />
 		<class-name>null</class-name>
 		<class-id>ribosome_P1_S7</class-id>
-	</annotation>
-	<annotation>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_49</id>
+		<annotator>Default</annotator>
+		<span start="1907" end="1915" />
+		<class-name>null</class-name>
+		<class-id>macromolecule_modification_P2_S4</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_58</id>
+		<annotator>Default</annotator>
+		<span start="1688" end="1693" />
+		<class-name>null</class-name>
+		<class-id>transfer_RNA_P2_S3</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_123</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_78</source>
+		<target>annotation_38</target>
+		<relationship>results_in_localization_into</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_56</id>
+		<annotator>Default</annotator>
+		<span start="2129" end="2142" />
+		<class-name>null</class-name>
+		<class-id>ribosomal_RNA_P2_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_104</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_16</source>
+		<target>annotation_17</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_110</id>
+		<graph>Graph P2_S1</graph>
+		<annotator>Default</annotator>
+		<source>annotation_23</source>
+		<target>annotation_24</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_65</id>
+		<annotator>Default</annotator>
+		<span start="2204" end="2208" />
+		<class-name>null</class-name>
+		<class-id>part_P2_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_135</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_54</target>
+		<relationship>input_of_process_that_has_output</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_78</id>
+		<annotator>Default</annotator>
+		<span start="1593" end="1601" />
+		<class-name>null</class-name>
+		<class-id>import_process_P2_S2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_105</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_16</source>
+		<target>annotation_18</target>
+		<relationship>located_between</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_8</id>
+		<annotator>Default</annotator>
+		<span start="577" end="590" />
+		<class-name>null</class-name>
+		<class-id>surrounded_by_P1_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_23</id>
+		<annotator>Default</annotator>
+		<span start="1374" end="1380" />
+		<class-name>null</class-name>
+		<class-id>occurrent_P2_S1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_40</id>
+		<annotator>Default</annotator>
+		<span start="1727" end="1746" />
+		<class-name>null</class-name>
+		<class-id>nucleus_P2_S3_1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_48</id>
+		<annotator>Default</annotator>
+		<span start="1810" end="1824" />
+		<class-name>null</class-name>
+		<class-id>export_process_P2_S4</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_143</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_52</source>
+		<target>annotation_62</target>
+		<relationship>location_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_112</id>
+		<graph>Graph P2_S1</graph>
+		<annotator>Default</annotator>
+		<source>annotation_23</source>
+		<target>annotation_25</target>
+		<relationship>results_in_localization_between</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_108</id>
+		<annotator>Default</annotator>
+		<span start="1366" end="1373" />
+		<class-name>null</class-name>
+		<class-id>transport_P2_S1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_96</id>
+		<graph>Graph P1_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_66</source>
+		<target>annotation_19</target>
+		<relationship>qualifies_with_respect_to</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_137</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_71</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_57</id>
+		<annotator>Default</annotator>
+		<span start="2171" end="2179" />
+		<class-name>null</class-name>
+		<class-id>export_process_P2_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_95</id>
+		<graph>Graph P1_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_7</source>
+		<target>annotation_66</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_7</id>
+		<annotator>Default</annotator>
+		<span start="595" end="617" />
+		<class-name>null</class-name>
+		<class-id>nuclear_outer_membrane_P1_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_126</id>
+		<graph>Graph P2_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_58</source>
+		<target>annotation_44</target>
+		<relationship>output_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_147</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_56</source>
+		<target>annotation_63</target>
+		<relationship>output_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_12</id>
+		<annotator>Default</annotator>
+		<span start="263" end="268" />
+		<span start="279" end="296" />
+		<class-name>null</class-name>
+		<class-id>nuclear_inner_membrane_P1_S3</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_47</id>
+		<annotator>Default</annotator>
+		<span start="1919" end="1933" />
+		<class-name>null</class-name>
+		<class-id>RNA_processing_P2_S4</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_17</id>
+		<annotator>Default</annotator>
+		<span start="973" end="988" />
+		<class-name>null</class-name>
+		<class-id>continuous_with_P1_S7</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_83</id>
+		<graph>Graph 0</graph>
+		<annotator>Default</annotator>
+		<source>annotation_2</source>
+		<target>annotation_3</target>
+		<relationship>results_in_localization_between</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_87</id>
+		<graph>Graph P1_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_72</source>
+		<target>annotation_73</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_136</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_53</source>
+		<target>annotation_57</target>
+		<relationship>is_localized_as_result_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_145</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_62</source>
+		<target>annotation_56</target>
+		<relationship>has_input</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_133</id>
+		<graph>Graph P2_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_47</source>
+		<target>annotation_80</target>
+		<relationship>occurs_in</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_10</id>
+		<annotator>Default</annotator>
+		<span start="806" end="823" />
+		<class-name>null</class-name>
+		<class-id>translation_P1_S6</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_142</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_71</source>
+		<target>annotation_52</target>
+		<relationship>results_in_localization_into</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_53</id>
+		<annotator>Default</annotator>
+		<span start="2018" end="2026" />
+		<class-name>null</class-name>
+		<class-id>protein_P2_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_22</id>
+		<annotator>Default</annotator>
+		<span start="746" end="768" />
+		<class-name>null</class-name>
+		<class-id>nuclear_outer_membrane_P1_S6</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_119</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_37</source>
+		<target>annotation_118</target>
+		<relationship>regulates_entity_or_process</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_85</id>
+		<graph>Graph P1_S1</graph>
+		<annotator>Default</annotator>
+		<source>annotation_60</source>
+		<target>annotation_39</target>
+		<relationship>contains</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_26</id>
+		<annotator>Default</annotator>
+		<span start="1640" end="1647" />
+		<class-name>null</class-name>
+		<class-id>cytosol_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_64</id>
+		<annotator>Default</annotator>
+		<span start="2148" end="2157" />
+		<class-name>null</class-name>
+		<class-id>macromolecular_complex_P2_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_72</id>
+		<annotator>Default</annotator>
+		<span start="179" end="188" />
+		<class-name>null</class-name>
+		<class-id>membrane_P1_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_70</id>
+		<annotator>Default</annotator>
+		<span start="273" end="278" />
+		<span start="279" end="296" />
+		<class-name>null</class-name>
+		<class-id>nuclear_outer_membrane_P1_S3</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_99</id>
+		<graph>Graph P1_S6</graph>
+		<annotator>Default</annotator>
+		<source>annotation_41</source>
+		<target>annotation_10</target>
+		<relationship>participates_in</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_76</id>
+		<annotator>Default</annotator>
+		<span start="1406" end="1413" />
+		<class-name>null</class-name>
+		<class-id>cytosol_P2_S1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_73</id>
+		<annotator>Default</annotator>
+		<span start="198" end="208" />
+		<class-name>null</class-name>
+		<class-id>perforate_P1_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_16</id>
+		<annotator>Default</annotator>
+		<span start="887" end="892" />
+		<class-name>null</class-name>
+		<class-id>spatial_region_P1_S7</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_13</id>
+		<annotator>Default</annotator>
+		<span start="829" end="837" />
+		<class-name>null</class-name>
+		<class-id>protein_P1_S7</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_102</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_21</source>
+		<target>annotation_45</target>
+		<relationship>occurs_on</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_71</id>
+		<annotator>Default</annotator>
+		<span start="2067" end="2075" />
+		<class-name>null</class-name>
+		<class-id>import_process_P2_S5</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_92</id>
+		<graph>Graph P1_S4</graph>
+		<annotator>Default</annotator>
+		<source>annotation_5</source>
+		<target>annotation_0</target>
+		<relationship>location_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_81</id>
+		<annotator>Default</annotator>
+		<span start="1839" end="1844" />
+		<class-name>null</class-name>
+		<class-id>messenger_RNA_P2_S4</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_66</id>
+		<annotator>Default</annotator>
+		<span start="628" end="643" />
+		<class-name>null</class-name>
+		<class-id>continuous_with_P1_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_67</id>
+		<annotator>Default</annotator>
+		<span start="2272" end="2281" />
+		<class-name>null</class-name>
+		<class-id>transport_P2_S6</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_109</id>
+		<graph>Graph P2_S1</graph>
+		<annotator>Default</annotator>
+		<source>annotation_108</source>
+		<target>annotation_29</target>
+		<relationship>has_participant_that_is_bearer_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_50</id>
+		<annotator>Default</annotator>
+		<span start="2058" end="2065" />
+		<class-name>null</class-name>
+		<class-id>cytosol_P2_S5_1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_15</id>
+		<annotator>Default</annotator>
+		<span start="866" end="877" />
+		<class-name>null</class-name>
+		<class-id>transport_P1_S7</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_68</id>
+		<annotator>Default</annotator>
+		<span start="2293" end="2309" />
+		<class-name>null</class-name>
+		<class-id>nuclear_envelope_P2_S6</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_118</id>
+		<annotator>Default</annotator>
+		<span start="1523" end="1527" />
+		<class-name>null</class-name>
+		<class-id>gene_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_35</id>
+		<annotator>Default</annotator>
+		<span start="1553" end="1567" />
+		<class-name>null</class-name>
+		<class-id>RNA_processing_P2_S2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_146</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_62</source>
+		<target>annotation_64</target>
+		<relationship>has_output</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_59</id>
+		<annotator>Default</annotator>
+		<span start="2214" end="2231" />
+		<class-name>null</class-name>
+		<class-id>ribosomal_subunit_P2_S5</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_5</id>
+		<annotator>Default</annotator>
+		<span start="403" end="411" />
+		<span start="424" end="437" />
+		<class-name>null</class-name>
+		<class-id>binding_site_and_protein_P1_S4</class-id>
+	</concept-annotation>
+	<concept-annotation>
 		<id>annotation_31</id>
 		<annotator>Default</annotator>
 		<span start="1506" end="1509" />
 		<span start="1510" end="1521" />
 		<class-name>null</class-name>
 		<class-id>RNA_polymerase_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_37</id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_24</id>
 		<annotator>Default</annotator>
-		<span start="1523" end="1538" />
+		<span start="1381" end="1393" />
 		<class-name>null</class-name>
-		<class-id>biological_regulation_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_12</id>
+		<class-id>continuous_P2_S1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_82</id>
+		<graph>Graph 0</graph>
 		<annotator>Default</annotator>
-		<span start="677" end="695" />
-		<class-name>null</class-name>
-		<class-id>endoplasmic_reticulum_membrane_P1_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_10</id>
+		<source>annotation_2</source>
+		<target>annotation_14</target>
+		<relationship>results_in_localization_between</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_14</id>
 		<annotator>Default</annotator>
-		<span start="806" end="823" />
+		<span start="39" end="46" />
 		<class-name>null</class-name>
-		<class-id>translation_P1_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_22</id>
+		<class-id>nucleus_T</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_93</id>
+		<graph>Graph P1_S5</graph>
 		<annotator>Default</annotator>
-		<span start="1406" end="1413" />
-		<class-name>null</class-name>
-		<class-id>cytosol_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_60</id>
-		<annotator>Default</annotator>
-		<span start="2046" end="2050" />
-		<class-name>null</class-name>
-		<class-id>biosynthetic_process_P2_S5_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_7</id>
-		<annotator>Default</annotator>
-		<span start="595" end="617" />
-		<class-name>null</class-name>
-		<class-id>nuclear_outer_membrane_P1_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_7</id>
-		<annotator>Default</annotator>
-		<span start="179" end="188" />
-		<class-name>null</class-name>
-		<class-id>membrane_P1_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_53</id>
-		<annotator>Default</annotator>
-		<span start="2018" end="2026" />
-		<class-name>null</class-name>
-		<class-id>protein_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_6</id>
-		<annotator>Default</annotator>
-		<span start="97" end="100" />
-		<class-name>null</class-name>
-		<class-id>DNA_P1_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_16</id>
-		<annotator>Default</annotator>
-		<span start="887" end="892" />
-		<class-name>null</class-name>
-		<class-id>spatial_region_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_29</id>
-		<annotator>Default</annotator>
-		<span start="1440" end="1448" />
-		<class-name>null</class-name>
-		<class-id>protein_P2_S2_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_33</id>
-		<annotator>Default</annotator>
-		<span start="1539" end="1547" />
-		<class-name>null</class-name>
-		<class-id>protein_P2_S2_2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_6</id>
-		<annotator>Default</annotator>
-		<span start="559" end="573" />
-		<class-name>null</class-name>
-		<class-id>nuclear_inner_membrane_P1_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_59</id>
-		<annotator>Default</annotator>
-		<span start="2214" end="2231" />
-		<class-name>null</class-name>
-		<class-id>ribosomal_subunit_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_4</id>
-		<annotator>Default</annotator>
-		<span start="1374" end="1380" />
-		<class-name>null</class-name>
-		<class-id>transport_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_11</id>
-		<annotator>Default</annotator>
-		<span start="746" end="768" />
-		<class-name>null</class-name>
-		<class-id>nuclear_outer_membrane_P1_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_48</id>
-		<annotator>Default</annotator>
-		<span start="1810" end="1824" />
-		<class-name>null</class-name>
-		<class-id>export_process_P2_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_44</id>
-		<annotator>Default</annotator>
-		<span start="1708" end="1719" />
-		<class-name>null</class-name>
-		<class-id>biosynthetic_process_P2_S3_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_39</id>
-		<annotator>Default</annotator>
-		<span start="1772" end="1779" />
-		<class-name>null</class-name>
-		<class-id>cytosol_P2_S3_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_47</id>
-		<annotator>Default</annotator>
-		<span start="1919" end="1933" />
-		<class-name>null</class-name>
-		<class-id>RNA_processing_P2_S4</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_28</id>
-		<annotator>Default</annotator>
-		<span start="1470" end="1477" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S2_1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_9</id>
-		<annotator>Default</annotator>
-		<span start="212" end="224" />
-		<class-name>null</class-name>
-		<class-id>nuclear_pore_P1_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_64</id>
-		<annotator>Default</annotator>
-		<span start="2148" end="2157" />
-		<class-name>null</class-name>
-		<class-id>macromolecular_complex_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_2</id>
-		<annotator>Default</annotator>
-		<span start="4" end="13" />
-		<class-name>null</class-name>
-		<class-id>transport_T</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_5</id>
-		<annotator>Default</annotator>
-		<span start="628" end="643" />
-		<class-name>null</class-name>
-		<class-id>continuous_with_P1_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_27</id>
-		<annotator>Default</annotator>
-		<span start="1488" end="1496" />
-		<class-name>null</class-name>
-		<class-id>histone_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_58</id>
-		<annotator>Default</annotator>
-		<span start="2067" end="2075" />
-		<class-name>null</class-name>
-		<class-id>import_process_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_17</id>
-		<annotator>Default</annotator>
-		<span start="973" end="988" />
-		<class-name>null</class-name>
-		<class-id>continuous_with_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_66</id>
-		<annotator>Default</annotator>
-		<span start="2247" end="2252" />
-		<class-name>null</class-name>
-		<class-id>step_P2_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_4</id>
-		<annotator>Default</annotator>
-		<span start="577" end="590" />
-		<class-name>null</class-name>
-		<class-id>surrounded_by_P1_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_23</id>
-		<annotator>Default</annotator>
-		<span start="1422" end="1429" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S1</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_36</id>
-		<annotator>Default</annotator>
-		<span start="1664" end="1668" />
-		<class-name>null</class-name>
-		<class-id>biosynthetic_process_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_62</id>
-		<annotator>Default</annotator>
-		<span start="2104" end="2112" />
-		<class-name>null</class-name>
-		<class-id>cellular_component_assembly_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_42</id>
-		<annotator>Default</annotator>
-		<span start="1698" end="1703" />
-		<class-name>null</class-name>
-		<class-id>messenger_RNA_P2_S3</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_21</id>
-		<annotator>Default</annotator>
-		<span start="838" end="842" />
-		<class-name>null</class-name>
-		<class-id>biosynthetic_process_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_63</id>
-		<annotator>Default</annotator>
-		<span start="2124" end="2128" />
-		<class-name>null</class-name>
-		<class-id>biosynthetic_process_P2_S5_2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_35</id>
-		<annotator>Default</annotator>
-		<span start="1593" end="1601" />
-		<class-name>null</class-name>
-		<class-id>import_process_P2_S2</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_68</id>
-		<annotator>Default</annotator>
-		<span start="2293" end="2309" />
-		<class-name>null</class-name>
-		<class-id>nuclear_envelope_P2_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_52</id>
-		<annotator>Default</annotator>
-		<span start="2085" end="2092" />
-		<class-name>null</class-name>
-		<class-id>nucleus_P2_S5</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_13</id>
-		<annotator>Default</annotator>
-		<span start="829" end="837" />
-		<class-name>null</class-name>
-		<class-id>protein_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_9</id>
-		<annotator>Default</annotator>
-		<span start="785" end="794" />
-		<class-name>null</class-name>
-		<class-id>ribosome_P1_S6</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_19</id>
+		<source>annotation_61</source>
+		<target>annotation_8</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_46</id>
 		<annotator>Default</annotator>
 		<span start="915" end="920" />
 		<span start="921" end="938" />
 		<class-name>null</class-name>
 		<class-id>nuclear_outer_membrane_P1_S7</class-id>
-	</annotation>
-	<annotation>
-		<id>annotation_14</id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_120</id>
+		<graph>Graph P2_S2</graph>
 		<annotator>Default</annotator>
-		<span start="273" end="278" />
-		<span start="279" end="296" />
+		<source>annotation_33</source>
+		<target>annotation_37</target>
+		<relationship>participates_in</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_106</id>
+		<graph>Graph P1_S7</graph>
+		<annotator>Default</annotator>
+		<source>annotation_16</source>
+		<target>annotation_46</target>
+		<relationship>located_between</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_77</id>
+		<annotator>Default</annotator>
+		<span start="1772" end="1779" />
 		<class-name>null</class-name>
-		<class-id>nuclear_outer_membrane_P1_S3</class-id>
-	</annotation>
+		<class-id>cytosol_P2_S3_1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_29</id>
+		<annotator>Default</annotator>
+		<span start="1352" end="1365" />
+		<class-name>null</class-name>
+		<class-id>bidirectional_P2_S1</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_2</id>
+		<annotator>Default</annotator>
+		<span start="4" end="13" />
+		<class-name>null</class-name>
+		<class-id>transport_T</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_30</id>
+		<annotator>Default</annotator>
+		<span start="1498" end="1501" />
+		<span start="1510" end="1521" />
+		<class-name>null</class-name>
+		<class-id>DNA_polymerase_P2_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_43</id>
+		<annotator>Default</annotator>
+		<span start="1756" end="1764" />
+		<class-name>null</class-name>
+		<class-id>export_process_P2_S3_1</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_117</id>
+		<graph>Graph P2_S2</graph>
+		<annotator>Default</annotator>
+		<source>annotation_32</source>
+		<target>annotation_36</target>
+		<relationship>output_of</relationship>
+	</compositional-annotation>
+	<compositional-annotation>
+		<id>annotation_150</id>
+		<graph>Graph P2_S5</graph>
+		<annotator>Default</annotator>
+		<source>annotation_57</source>
+		<target>annotation_51</target>
+		<relationship>results_in_localization_to</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_69</id>
+		<annotator>Default</annotator>
+		<span start="143" end="151" />
+		<class-name>null</class-name>
+		<class-id>nuclear_envelope_P1_S2</class-id>
+	</concept-annotation>
+	<concept-annotation>
+		<id>annotation_63</id>
+		<annotator>Default</annotator>
+		<span start="2124" end="2128" />
+		<class-name>null</class-name>
+		<class-id>biosynthetic_process_P2_S5_2</class-id>
+	</concept-annotation>
+	<compositional-annotation>
+		<id>annotation_89</id>
+		<graph>Graph P1_S3</graph>
+		<annotator>Default</annotator>
+		<source>annotation_12</source>
+		<target>annotation_11</target>
+		<relationship>bearer_of</relationship>
+	</compositional-annotation>
+	<concept-annotation>
+		<id>annotation_27</id>
+		<annotator>Default</annotator>
+		<span start="1488" end="1496" />
+		<class-name>null</class-name>
+		<class-id>histone_P2_S2</class-id>
+	</concept-annotation>
 </document>
 
 <profile id="Default">
 	<highlighter>
 		<class-id>cellular_component_assembly_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_T</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>bidirectional_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>translation_P1_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>BFO_0000006</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>MSO_3100186</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>BFO_0000004</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0043412</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>continuous_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0009058</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_envelope_P1_S1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>function_process</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S4</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_envelope_P1_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>messenger_RNA_P2_S4</class-id>
@@ -793,15 +1351,15 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>ribosomal_RNA_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>RNA_processing_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>messenger_RNA_P2_S3</class-id>
@@ -809,7 +1367,7 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>RNA_processing_P2_S4</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>Thing</class-id>
@@ -817,51 +1375,51 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005789</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>transport_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005788</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biological_regulation_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>ribosome_P2_S5_2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>PATO_0005016</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>PATO_002112</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>ribosome_P2_S5_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P1_S7</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>PATO_0005011</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>macromolecular_complex_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
+	</highlighter>
+	<highlighter>
+		<class-id>PATO_0005011</class-id>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>part_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#ffff66</color>
 	</highlighter>
 	<highlighter>
 		<class-id>histone_P2_S2</class-id>
@@ -869,47 +1427,47 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0016020</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_outer_membrane_P1_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005635</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>PATO_0000429</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_outer_membrane_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
+	</highlighter>
+	<highlighter>
+		<class-id>PATO_0000429</class-id>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>endoplasmic_reticulum_membrane_P1_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S3_1</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>GO_0005637</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_outer_membrane_P1_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
+	</highlighter>
+	<highlighter>
+		<class-id>GO_0005637</class-id>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>endoplasmic_reticulum_membrane_P1_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>export_process</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S3_2</class-id>
@@ -917,23 +1475,23 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005634</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>RNA_polymerase</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S5_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S5_2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_33699</class-id>
@@ -941,31 +1499,31 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>BFO_0000034</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_outer_membrane_P1_S3</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>transport_T</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>DNA_polymerase</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>PATO_0001903</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_inner_membrane_P1_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005643</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>protein_P1_S7</class-id>
@@ -973,15 +1531,15 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_inner_membrane_P1_S3</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_inner_membrane_P1_S4</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_inner_membrane_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_15358</class-id>
@@ -989,11 +1547,11 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005640</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>MSO_0000252</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>export_process_P2_S3_2</class-id>
@@ -1001,27 +1559,27 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>export_process_P2_S3_1</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>MSO_0000409</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>macromolecule_modification_P2_S4</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
+	</highlighter>
+	<highlighter>
+		<class-id>MSO_0000409</class-id>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>spatial_region_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>ribosomal_subunit_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P2_S3_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P2_S3_2</class-id>
@@ -1029,7 +1587,7 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>perforate_P1_S2</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_18111</class-id>
@@ -1037,19 +1595,19 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S2_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nucleus_P2_S2_2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>continuous_with_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>continuous_with_P1_S3</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>polyatomic_entity_T</class-id>
@@ -1057,75 +1615,75 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>continuous_with_P1_S5</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>import_process_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>endoplasmic_reticulum_lumen_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0034061</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>import_process_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0097747</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>GO_0044391</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>step_P2_S6</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
+	</highlighter>
+	<highlighter>
+		<class-id>GO_0044391</class-id>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>function_process_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_envelope_P2_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>import_process</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>nuclear_pore_P1_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>binding_site_and_protein_P1_S4</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>export_process_P2_S5</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>gene_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>export_process_P2_S4</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0006396</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>MSO_0000704</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>protein_P2_S2_1</class-id>
@@ -1141,15 +1699,15 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>ribosome_P1_S7</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>ribosome_P1_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_T</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_36080</class-id>
@@ -1161,19 +1719,19 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P2_S5_2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>transport_P2_S6</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>transfer_RNA_P2_S3</class-id>
@@ -1181,11 +1739,11 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0000785</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>part</class-id>
-		<color>#00ffff</color>
+		<color>#ffff66</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_17843</class-id>
@@ -1193,7 +1751,7 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>transport_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S3_2</class-id>
@@ -1201,55 +1759,55 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>DNA_P1_S1</class-id>
-		<color>#00ffff</color>
+		<color>#ff99ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>cytosol_P2_S3_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>membrane_P1_S2</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>occurrent_P2_S1</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005829</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0022607</class-id>
-		<color>#00ffff</color>
-	</highlighter>
-	<highlighter>
-		<class-id>GO_0006412</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0005840</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
+	</highlighter>
+	<highlighter>
+		<class-id>GO_0006412</class-id>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0006810</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>surrounded_by_P1_S5</class-id>
-		<color>#00ffff</color>
+		<color>#ff6666</color>
 	</highlighter>
 	<highlighter>
 		<class-id>DNA_polymerase_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>chromatin_P1_S4</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0065007</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>CHEBI_36357</class-id>
@@ -1257,23 +1815,23 @@ Proteins containing nuclear localization signals are actively transported inward
 	</highlighter>
 	<highlighter>
 		<class-id>BFO_0000003</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>step</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>RNA_polymerase_P2_S2</class-id>
-		<color>#00ffff</color>
+		<color>#9999ff</color>
 	</highlighter>
 	<highlighter>
 		<class-id>GO_0032991</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 	<highlighter>
 		<class-id>biosynthetic_process_P2_S5_1</class-id>
-		<color>#00ffff</color>
+		<color>#99ff99</color>
 	</highlighter>
 </profile>
 
